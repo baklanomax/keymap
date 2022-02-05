@@ -1,1 +1,7 @@
-
+keymaps 0-127
+keycode 16 = +q
+	shiftl	keycode 16 = cyrillic_small_letter_short_i
+	control	keycode 16 = Control_q
+keycode 125 = ShiftL_Lock
+	shiftl	keycode 125 = ShiftR_Lock
+	shiftr	keycode 125 = ShiftL_Lock
